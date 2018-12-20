@@ -45,4 +45,7 @@ object StringsApp extends App {
   val result = "hello world".filter(_ != 'l')
   println(s"the result is $result")
 
+  println()
+
+  println("scala".drop(2).take(2).capitalize)
 }
