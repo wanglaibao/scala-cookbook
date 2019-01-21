@@ -48,4 +48,7 @@ object StringsApp extends App {
   println()
 
   println("scala".drop(2).take(2).capitalize)
+
+
+  "jingealading".getBytes.foreach(println)
 }
