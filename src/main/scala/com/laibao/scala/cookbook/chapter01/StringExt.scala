@@ -36,6 +36,19 @@ object StringExt {
     println(speechThree)
 
 
+
+    val array = "hello world".split(" ")
+    println(array.getClass.getName)
+
+    array.foreach(println)
+    println()
+
+    "hello world".split(" ").foreach(println)
+    println()
+
+
+    "eggs , milk , butter , Coco Puffs ".split(",").map(_.trim).map(_.toUpperCase).foreach(println)
+
   }
 
 }
