@@ -1,6 +1,6 @@
-package com.laibao.scala
+package com.laibao.scala.cookbook.utils
 
-package object cookbook {
+object StringUtils {
 
   implicit class StringImprovements(val str: String) {
     def increment:String = str.map(c => (c+1).toChar)
@@ -9,17 +9,13 @@ package object cookbook {
 
     def hideAll:String = str.replaceAll(".", "*")
 
-   // def plusOne:Int = str.toInt + 1
+
+    def plusOne:Int = str.toInt + 1
 
     def asBoolean:Boolean = str match {
       case "0" | "zero" | "" | " " => false
       case _ => true
     }
-  }
-
-  implicit class StringToInt(str:String) {
-    @throws(classOf[NumberFormatException])
-    def toInt(radix: Int) = Integer.parseInt(str, radix)
   }
 
 }

@@ -29,6 +29,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <scala.version>2.12.8</scala.version>
+        <spire.version>0.16.0</spire.version>
     </properties>
 
     <dependencies>
@@ -38,6 +39,21 @@
             <artifactId>scala-library</artifactId>
             <version>${scala.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.typelevel/spire -->
+        <!--<dependency>-->
+            <!--<groupId>org.typelevel</groupId>-->
+            <!--<artifactId>spire_2.12</artifactId>-->
+            <!--<version>${spire.version}</version>-->
+        <!--</dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/com.github.nscala-time/nscala-time -->
+        <dependency>
+            <groupId>com.github.nscala-time</groupId>
+            <artifactId>nscala-time_2.12</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
