@@ -41,3 +41,60 @@
 
 [大数据 全套视频] (https://www.bilibili.com/video/av35028934/?spm_id_from=333.788.videocard.3)
 [大数据入门] (https://www.bilibili.com/video/av31569133/?spm_id_from=333.788.videocard.9)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[DavidMellul/Kotlin-Publish-Subscribe] (https://github.com/DavidMellul/Kotlin-Publish-Subscribe)
+[AKKA 2.3.6 Scala 文档] (https://doc.yonyoucloud.com/doc/akka-doc-cn/2.3.6/scala/book/index.html)
+[An Introduction to Actor Model, with Examples in Akka] (https://www.infoq.com/news/2014/10/intro-actor-model)
+[Arun Manivannan] (https://github.com/arunma)
+[TAG: AKKA] (https://rerun.me/tag/akka/)
+[AKKA NOTES - INTRODUCING ACTOR] (https://rerun.me/2014/09/11/introducing-actors-akka-notes-part-1/)
+[Scala并发编程] (http://www.cnblogs.com/Finley/p/6422374.html)

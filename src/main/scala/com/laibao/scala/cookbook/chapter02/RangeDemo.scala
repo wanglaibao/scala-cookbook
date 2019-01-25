@@ -1,5 +1,7 @@
 package com.laibao.scala.cookbook.chapter02
 
+import scala.util.Random
+
 object RangeDemo extends App {
 
   val range1 = 1 to 100
@@ -38,5 +40,18 @@ object RangeDemo extends App {
   val x = (1 to 10).toList
 
   val y = (1 to 10).toArray
+
+  println()
+  println()
+  println()
+
+  var range = 0 to Random.nextInt(10)
+  range.foreach(println)
+
+
+  for (i <- 1 to 5) yield i * 2
+
+
+  for (i <- 1 to 5) yield i.toDouble
 
 }
